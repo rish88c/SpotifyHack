@@ -1,0 +1,32 @@
+
+##frontend
+# dependencies
+frontend/node_modules
+frontend/.pnp
+frontend/.pnp.js
+
+# testing
+frontend/coverage
+
+# production
+frontend/build
+
+# misc
+frontend/.DS_Store
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+##backend
+.env
+processed_results.json
+recommendation_results.json
+recommendations_processed_results.json
+spotify_results.json
+youtube_results.json
+venv
